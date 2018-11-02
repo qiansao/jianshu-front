@@ -9,7 +9,7 @@ export default new Router({
     {
       //首页组件
       path: '/',
-      redirect: '/c/1',
+      redirect: '/index',
       component: resolve => require(['../components/common/Home.vue'], resolve),
       meta: {title: '首页'},
       children: [
@@ -71,6 +71,17 @@ export default new Router({
       component: resolve => require(['../components/message/Comments.vue'], resolve),
       meta: {title: '评论'}
     },
+    {
+      path: '/sign_in',
+      component: resolve => require(['../components/page/Login.vue'], resolve),
+      meta: {title: '登录'}
+    },
+    {
+      path: '/sign_up',
+      component: resolve => require(['../components/page/Register.vue'], resolve),
+      meta: {title: '注册'}
+    }
+
 
   ]
 })

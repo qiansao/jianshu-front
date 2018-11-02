@@ -10,9 +10,6 @@
     </router-link>
 
   </div>
-
-
-
 </template>
 
 <script>

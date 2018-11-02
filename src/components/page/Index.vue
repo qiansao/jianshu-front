@@ -34,9 +34,7 @@ import vRecommend from '../common/Recommend'
       vHot,
       vTheme,
       vIndexContent,
-      vRecommend
-
-    }
+      vRecommend}
   }
 </script>
 
